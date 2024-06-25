@@ -1,0 +1,55 @@
+.navbar {
+    width: 100vw;
+    overflow: hidden;
+    border: 2px solid #E7E7E7;
+  }
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 0 0 3rem;
+  }
+   
+  .navbar li {
+    float: left;
+    list-style: none;
+   
+  }
+  
+  .navbar li a {
+    
+    margin: 0 10px;
+    display: block;
+    color: #888888;
+    text-align: center;
+    height:100%;
+    padding:  16px;
+    text-decoration: none;
+    position: relative;
+  }
+
+  .navbar ul li .job-review{
+    color: #DC4A2D;
+    font-weight: 600;
+  }
+
+  .navbar ul li .job-review::before{
+    content: "";
+    position: absolute;
+    bottom:0;
+    left:0;
+    height:2.5px;
+    width:100%;
+    background-color: #DC4A2D;
+    transform: scaleX(0.4);
+  }
+
+
+  
+
+
+
+  
+  /* .navbar li a:hover {
+    color: #DC4A2D;
+  } */
