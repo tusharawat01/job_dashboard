@@ -1,0 +1,112 @@
+.header{
+    width:100vw;
+    padding: 1.2vw;
+    border: 2px solid red;
+
+
+}
+
+.main{
+    position: relative;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.left{
+    height:100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px 10px;
+    background-color: #E7E7E7 ;
+    color: #DC4A2D;
+}
+
+.middle{
+    height:100%;
+    width: auto;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #E7E7E7;
+    gap: 4rem;
+}
+
+.middle .content{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+   
+}
+
+.message{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.message span:nth-child(1)::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right:0;
+    width: 4px;
+    height: 4px;
+    background-color: #DC4A2D;
+    border-radius: 50%;
+}
+
+.jobs{
+    padding: 5px 8px;
+    border-radius: 20px ;
+    background-color: #DC4A2D;
+    color: white;
+}
+
+
+.right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-shrink: 1;
+}
+
+.right span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.right span:nth-child(2){
+    width: 24px;
+    height:24px;
+    border-radius: 50%;
+    background-color: blue;
+}
+.right span:nth-child(1){
+    margin:8px;
+    transform: scale(1.1);
+}
+.right span:nth-child(1)::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right:0;
+    width: 4px;
+    height: 4px;
+    background-color: #DC4A2D;
+    border-radius: 50%;
+}
+
+.right span:nth-child(3){
+    margin: 2px;
+    transform: scale(1.5);
+
+}
